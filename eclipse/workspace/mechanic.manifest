@@ -1,0 +1,13 @@
+{
+    "type": "com.google.eclipse.mechanic.UriTaskProviderModel",
+    "metadata": {
+        "description": "Configuration manifest",
+        "name": "Isaac Truett",
+        "contact": ""
+    },
+    "tasks": [
+	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/save-actions.epf",
+	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/general.epf"
+    ]
+}
+

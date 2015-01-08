@@ -1,0 +1,24 @@
+# @title General Preferences
+# @description Settings for General preferences
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Thu Jan 08 16:07:25 EST 2015
+/instance/org.eclipse.ui.trace/tracingMaxFileCount=10
+/instance/org.eclipse.search/org.eclipse.search.defaultPerspective=
+/instance/org.eclipse.ui.trace/tracingMaxFileSize=1000
+/instance/org.eclipse.compare/org.eclipse.compare.IgnoreWhitespace=true
+/instance/org.eclipse.ui.browser/browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n</web-browsers>
+/instance/org.eclipse.ui.trace/tracingEnabled=false
+/instance/org.eclipse.ui.trace/tracingEntries=
+/instance/org.eclipse.e4.ui.css.swt.theme/themeid=org.eclipse.e4.ui.css.theme.e4_default
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
+/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE=prompt
+/instance/org.eclipse.ui.trace/tracingFilePath=/Users/isaactruett/dev/workspaces/gogreen/.metadata/trace.log
+/instance/org.eclipse.wst.ws.service.policy/org.eclipse.wst.ws.service.policy.ui.servicepols.wsiprofilecomp.wsissbp.defaultProtocol=http\://schemas.xmlsoap.org/wsdl/soap/
+/instance/org.eclipse.ui.trace/tracingOutputStandard=false
+/instance/org.eclipse.ui.browser/browser-choice=0
+/instance/org.eclipse.core.resources/refresh.enabled=true
+/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_MODE=prompt
+/instance/org.eclipse.wst.ws.service.policy/org.eclipse.wst.ws.service.policy.ui.servicepols.wsiprofilecomp.wsiap.defaultProtocol=http\://schemas.xmlsoap.org/wsdl/soap/
+file_export_version=3.0
