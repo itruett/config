@@ -1,0 +1,10 @@
+# @title Set Content Encoding for Text Files
+# @description Set Content Encoding for Text Files to UTF-8
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Tue Jan 13 10:34:35 EST 2015
+/instance/org.eclipse.core.runtime/content-types/org.eclipse.jdt.core.javaProperties/charset=UTF-8
+file_export_version=3.0
+/instance/org.eclipse.core.runtime/content-types/org.eclipse.jst.jsp.core.jspsource/charset=UTF-8
+/instance/org.eclipse.core.runtime/content-types/org.eclipse.core.runtime.text/charset=UTF-8
