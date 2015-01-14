@@ -1,6 +1,6 @@
 # @title Java Editor Save Actions
 # @description Actions to perform when a Java editor is saved.
-# @task_type RECONCILE
+# @task_type LASTMOD
 #
 # Created by the Workspace Mechanic Preference Recorder
 #Thu Jan 08 16:03:24 EST 2015
