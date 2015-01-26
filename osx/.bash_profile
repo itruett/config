@@ -15,3 +15,6 @@ parse_git_branch() {
 export PS1="\[\033[0;31m\]\D{%F %T}\[\033[0;37m\] \u@\h \[\033[0m\]\W\[\033[36m\]\$(parse_git_branch)\[\033[00m\]\n$ "
 source ~/git-completion.bash
 
+export HISTCONTORL=ignorespace:ignoredups
+shopt -s histverify
+
