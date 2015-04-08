@@ -19,4 +19,5 @@ export HISTCONTORL=ignorespace:ignoredups
 shopt -s histverify
 
 alias hippo-run="mvn -T 1.5C clean install && mvn -T 1.5C -Pcargo.run"
+alias git-sync="git checkout develop && git pull --rebase && git rebase develop "
 
