@@ -1,5 +1,5 @@
-MVN_VERSION=apache-maven-3.2.3
-JAVA_VERSION=1.7
+MVN_VERSION=apache-maven-3.3.3
+JAVA_VERSION=1.8
 
 export M2_HOME=~/dev/maven/$MVN_VERSION
 export M2=$M2_HOME/bin
