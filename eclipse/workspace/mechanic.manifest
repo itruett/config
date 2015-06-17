@@ -10,7 +10,8 @@
 	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/general.epf",
 	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/text-encoding.epf",
 	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/java-compiler.epf",
-	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/java-formatter.epf"
+	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/java-formatter.epf",
+	"https://raw.githubusercontent.com/itruett/config/master/eclipse/workspace/auto-refresh.epf"
     ]
 }
 
