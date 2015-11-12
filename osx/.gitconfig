@@ -4,3 +4,11 @@
 	default = simple
 [pull]
 	rebase = true
+[core]
+	editor = vim
+[format]
+	pretty = "format:%C(auto)%h %d %cI %an %s"
+[log]
+	decorate = true
+	graph = true
+
