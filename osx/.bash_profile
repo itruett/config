@@ -19,8 +19,16 @@ pwd_frecency() {
 export PS1="\[\033[0;31m\]\D{%F %T}\[\033[0;37m\] \u@\h \[\033[0m\]\W\[\033[36m\]\$(parse_git_branch)\[\033[00m\] (\$(pwd_frecency))\n$ "
 source ~/git-completion.bash
 
-export HISTCONTORL=ignorespace:ignoredups
+# Don't write to history if the command starts with a space, don't write duplicate commands to history, remove duplicate commands from history.
+export HISTCONTORL=ignorespace:ignoredups:erasedups
+# Make history long
+export HISTSIZE=100000
+# Make history big
+export HISTFILESIZE=2000000
+# Put historical command on command-line for editing instead of executing immediately.
 shopt -s histverify
+# Append to history file when shell exits instead of overwriting
+shopt -s histappend
 
 alias hippo-run="mvn -T 1.5C clean install && mvn -T 1.5C -Pcargo.run"
 alias git-sync="git checkout develop && git pull --rebase && git rebase develop "
