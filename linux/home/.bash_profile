@@ -5,7 +5,7 @@ export DEV_ROOT=/c/dev
 export M2_HOME=$DEV_ROOT/maven/$MVN_VERSION
 export M2=$M2_HOME/bin
 export JAVA_HOME=$DEV_ROOT/Java/jdk1.8.0_102
-export PATH=$PATH:$JAVA_HOME/bin:$M2
+export PATH=$PATH:$JAVA_HOME/bin:$M2:./
 
 fasd_installed() {
 	command -v fasd >/dev/null -eq 1
@@ -51,4 +51,6 @@ alias zz='fasd_cd -d -i' # cd with interactive selection
 if fasd_installed; then
 	eval "$(fasd --init auto)"
 fi
+
+xrdb -load ~/.Xresources
 

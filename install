@@ -1,0 +1,20 @@
+#!/bin/bash
+git clone git@github.com:itruett/config.git
+sudo apt-get install gnome-terminal tree
+
+conf_dir=./config/linux/home
+files="git-completion.bash .bash_profile .gitconfig"
+
+for f in ${files}; do
+	src="${conf_dir}/${f}"
+	file="${HOME}/${f}"
+	backup="${HOME}/${f}.backup"
+
+	if [ -f $file ]; then
+		echo "Backing up ${file} to ${backup}"
+		mv "${file}" "${backup}"
+	fi
+	echo "Copying ${src} to ${file}"
+	cp "${src}" "${file}" 
+done
+
